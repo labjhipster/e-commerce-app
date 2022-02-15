@@ -1,0 +1,11 @@
+id;placed_date;status;code;customer_id
+1;2022-02-14T22:30:14;COMPLETED;Electronics;1
+2;2022-02-14T16:52:13;COMPLETED;payment PCI violet;2
+3;2022-02-15T03:21:06;CANCELLED;background out-of-the-box withdrawal;1
+4;2022-02-14T07:24:07;COMPLETED;Music real-time;2
+5;2022-02-14T15:28:16;CANCELLED;Hat;1
+6;2022-02-15T04:13:04;PENDING;solid navigating;2
+7;2022-02-14T14:08:50;PENDING;Toys maroon;1
+8;2022-02-15T02:58:24;COMPLETED;Developer;2
+9;2022-02-14T10:26:48;COMPLETED;Credit Soft Cotton;2
+10;2022-02-15T01:09:24;CANCELLED;contingency Bedfordshire;1

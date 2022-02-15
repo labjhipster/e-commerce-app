@@ -1,0 +1,61 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "gateway",
+    "applications": {
+      "invoice": {
+        "applicationIndex": 1,
+        "serverPort": "8081"
+      },
+      "notification": {
+        "applicationIndex": 2,
+        "serverPort": "8082"
+      }
+    },
+    "authenticationType": "jwt",
+    "baseName": "store",
+    "blueprints": [],
+    "buildTool": "gradle",
+    "cacheProvider": "no",
+    "clientFramework": "angularX",
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1644907284317,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "devServerPort": 4200,
+    "dtoSuffix": "DTO",
+    "enableGradleEnterprise": false,
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "entities": ["Product", "ProductCategory", "Customer", "ProductOrder", "OrderItem", "Invoice", "Shipment", "Notification"],
+    "entitySuffix": "",
+    "gradleEnterpriseHost": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "7.6.0",
+    "jwtSecretKey": "Y2VjMTlmODdiODU2NmJhN2U5MzQ5YmQzMWFhY2MyZDRiYTUxNjUzNzgwODVkZjFmZDYwN2E3NGM4YzU1YTY3OWUzZDlmMDk2MTc5Yjk0OWEwN2I0NGMyMWQwMGY3NzVmYjA0YmZjMDdiM2JkNGUzZjBlNjQwYjJlMjA2ZDdiNzE=",
+    "languages": ["en", "zh-cn", "ta"],
+    "lastLiquibaseTimestamp": 1644907764000,
+    "messageBroker": false,
+    "monorepository": true,
+    "nativeLanguage": "en",
+    "otherModules": [],
+    "packageFolder": "com/mycompany/store",
+    "packageName": "com.mycompany.store",
+    "pages": [],
+    "prodDatabaseType": "mysql",
+    "reactive": true,
+    "searchEngine": false,
+    "serverPort": "8080",
+    "serviceDiscoveryType": "eureka",
+    "skipCheckLengthOfIdentifier": false,
+    "skipCommitHook": true,
+    "skipFakeData": false,
+    "skipUserManagement": false,
+    "testFrameworks": ["protractor"],
+    "websocket": false,
+    "withAdminUi": true
+  }
+}
