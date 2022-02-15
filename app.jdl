@@ -11,9 +11,9 @@ application {
     cacheProvider hazelcast
     buildTool gradle
     clientFramework angularX
-    useSass true
+    //useSass true
     languages [en, zh-cn, ta]
-    websocket spring-websocket
+    //websocket spring-websocket
     testFrameworks [protractor]
   }
   entities *
