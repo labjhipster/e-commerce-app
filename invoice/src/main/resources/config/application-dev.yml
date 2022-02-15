@@ -94,13 +94,13 @@ jhipster:
     password: admin
   # CORS is disabled by default on microservices, as you should access them through a gateway.
   # If you want to enable it, please uncomment the configuration below.
-  # cors:
-  #   allowed-origins: "http://localhost:9000,https://localhost:9000"
-  #   allowed-methods: "*"
-  #   allowed-headers: "*"
-  #   exposed-headers: "Authorization,Link,X-Total-Count"
-  #   allow-credentials: true
-  #   max-age: 1800
+  cors:
+    allowed-origins: "https://8081-labjhipster-ecommerceapp-dsu2hclbb6w.ws-eu31.gitpod.io,https://8080-labjhipster-ecommerceapp-dsu2hclbb6w.ws-eu31.gitpod.io,http://localhost:9000,https://localhost:9000"
+    allowed-methods: "*"
+    allowed-headers: "*"
+    exposed-headers: "Authorization,Link,X-Total-Count"
+    allow-credentials: true
+    max-age: 1800
   security:
     authentication:
       jwt:
